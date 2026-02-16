@@ -26,8 +26,20 @@ Mes objectifs sont les suivants :
 |TP7     |Valider les tests, rédiger le rapport technique et préparer la démonstration.|
 
 
+# 2 Projet
 
+## Séance 1
 
+L'alimentation de la voiture sera fait grâce a une batterie 12v, cette tension sera convertie en 5v par un convertisseur DC-DC, qui alimentera toute la carte.\
+Un esp32 recuperera les informations de mouvement depuis une connection bluetooth, enverra la PWM appropriée aux drivers, qui eux controleront les moteurs.\
+Les moteurs seront eux alimentés par la batterie 12v, et leur valeur d'encodeur sera renvoyée à l'esp pour permettre un niveau de précision adéquat pour utiliser les roues omnidirectionelles.\
+Une interface sera faite sur telephone avec l'application BT electronics, et si le temps le permets, le robot sera controlé par une manette de ps4
 
-
-
+| Composant | Référence | Lien | Quantité |
+|-----------|-----------|------|----------|
+| Moteurs | RK370SD22140n9h | https://www.pololu.com/product/3240 | x4 |
+| Drivers moteur | | | x2 |
+| ESP32 | | | x1 |
+| Roues omnidirectionelles | FIT0779 | https://www.gotronic.fr/art-roue-omnidirectionnelle-droite-fit0780-34179.htm | x2L x2R |
+| Convertisseur 12v-5v | 173950x78 | https://www.we-online.com/components/products/datasheet/173950378.pdf | x1 |
+| Batterie 12v | fait in ensea |  | x1 |
