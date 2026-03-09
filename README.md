@@ -38,7 +38,7 @@ Une interface sera faite sur telephone avec l'application BT electronics, et si 
 | Composant | Référence | Lien | Quantité |
 |-----------|-----------|------|----------|
 | Moteurs | RK370SD22140n9h | https://www.pololu.com/product/3240 | x4 |
-| Drivers moteur | | | x2 |
+| Drivers moteur | DRV8411APWPR | | x2 |
 | ESP32 | | | x1 |
 | Roues omnidirectionelles | FIT0779 | https://www.gotronic.fr/art-roue-omnidirectionnelle-droite-fit0780-34179.htm | x2L x2R |
 | Convertisseur 12v-5v | 173950x78 | https://www.we-online.com/components/products/datasheet/173950378.pdf | x1 |
