@@ -4,4 +4,5 @@
   (lib (name "Conv_dc-dc")(type "KiCad")(uri "${KIPRJMOD}/Libs/Conv_dc-dc.pretty")(options "")(descr ""))
   (lib (name "17791063215")(type "KiCad")(uri "${KIPRJMOD}/Libs/17791063215")(options "")(descr ""))
   (lib (name "DRV8411APWPR")(type "KiCad")(uri "${KIPRJMOD}/Libs/DRV8411APWPR")(options "")(descr ""))
+  (lib (name "Capa")(type "KiCad")(uri "${KIPRJMOD}/Libs/Capa.pretty")(options "")(descr ""))
 )
