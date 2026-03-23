@@ -134,14 +134,6 @@
         [
           "lib_footprint_mismatch|179300000|88690000|9aec3521-8597-425e-94e6-754d7213e718|00000000-0000-0000-0000-000000000000",
           ""
-        ],
-        [
-          "silk_over_copper|127948213|52622478|b6feb8dd-e945-423d-8347-f35096823232|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|129001020|47749999|3b34b448-98a9-43c1-b034-0ee551457147|00000000-0000-0000-0000-000000000000",
-          ""
         ]
       ],
       "meta": {
@@ -185,9 +177,9 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -330,12 +322,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "footprint_link_issues|1181100|355600|2aa30030-f470-4be1-929d-6242c3dc31a3|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
