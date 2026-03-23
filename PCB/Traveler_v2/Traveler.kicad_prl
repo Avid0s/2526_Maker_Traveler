@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 6,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -13,7 +13,7 @@
       "shapes": 0.8199999928474426,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.4000000059604645
+      "zones": 0.18000000715255737
     },
     "selection_filter": {
       "dimensions": true,
@@ -36,7 +36,6 @@
       "grid",
       "footprints_front",
       "footprints_back",
-      "footprint_values",
       "footprint_references",
       "tracks",
       "drc_errors",
@@ -73,6 +72,8 @@
       false,
       false,
       false,
+      false,
+      false,
       false
     ],
     "col_order": [
@@ -85,7 +86,9 @@
       6,
       7,
       8,
-      9
+      9,
+      10,
+      11
     ],
     "col_widths": [
       149,

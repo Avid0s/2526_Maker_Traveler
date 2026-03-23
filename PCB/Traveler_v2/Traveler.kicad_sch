@@ -228,7 +228,7 @@
 							)
 						)
 					)
-					(number "13"
+					(number "EP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3448,6 +3448,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 104.14) (xy 86.36 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f931ad9-35ad-4a72-87e8-a77b9bca2809")
+	)
+	(wire
+		(pts
 			(xy 64.77 43.18) (xy 64.77 48.26)
 		)
 		(stroke
@@ -3455,16 +3465,6 @@
 			(type default)
 		)
 		(uuid "3135142b-80fe-4399-bfac-aa473bbd3bb7")
-	)
-	(wire
-		(pts
-			(xy 87.63 109.22) (xy 86.36 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31790338-b48a-42a5-84b1-fffce71395ff")
 	)
 	(wire
 		(pts
@@ -3518,6 +3518,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 106.68) (xy 86.36 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cdd3ac0-dce6-44c8-a86d-018f7f86245a")
+	)
+	(wire
+		(pts
 			(xy 64.77 55.88) (xy 64.77 66.04)
 		)
 		(stroke
@@ -3535,6 +3545,16 @@
 			(type default)
 		)
 		(uuid "52040263-20ab-45f3-a478-5e2cd23b3408")
+	)
+	(wire
+		(pts
+			(xy 87.63 101.6) (xy 86.36 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52c9524c-0423-4f7c-bd95-29123af25902")
 	)
 	(wire
 		(pts
@@ -3798,16 +3818,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 104.14) (xy 86.36 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8a76450-c638-42e3-a1c3-274e6e29edea")
-	)
-	(wire
-		(pts
 			(xy 248.92 39.37) (xy 257.81 39.37)
 		)
 		(stroke
@@ -3858,16 +3868,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 101.6) (xy 86.36 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbbb72d5-6548-493c-86b8-3df14ba229de")
-	)
-	(wire
-		(pts
 			(xy 78.74 43.18) (xy 64.77 43.18)
 		)
 		(stroke
@@ -3875,16 +3875,6 @@
 			(type default)
 		)
 		(uuid "bc40e510-fb43-4b5e-8a7f-7c542729bc63")
-	)
-	(wire
-		(pts
-			(xy 87.63 106.68) (xy 86.36 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc69b23a-ad06-4504-8ee2-8c36b13cd50c")
 	)
 	(wire
 		(pts
@@ -4045,6 +4035,16 @@
 			(type default)
 		)
 		(uuid "ed14ba19-2259-4f4a-9c20-a8722a11c97e")
+	)
+	(wire
+		(pts
+			(xy 87.63 109.22) (xy 86.36 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f57d25ce-eb18-4185-a122-d65ec6eb8c0b")
 	)
 	(wire
 		(pts
@@ -4701,7 +4701,7 @@
 	)
 	(global_label "A1IN2"
 		(shape input)
-		(at 87.63 104.14 0)
+		(at 87.63 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4712,7 +4712,7 @@
 		)
 		(uuid "565e38cd-9b86-45c4-a083-e4083b7d1af0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.0581 104.14 0)
+			(at 96.0581 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4881,7 +4881,7 @@
 	)
 	(global_label "A1IN1"
 		(shape input)
-		(at 87.63 101.6 0)
+		(at 87.63 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4892,7 +4892,7 @@
 		)
 		(uuid "b246eeb3-27b5-4a16-a369-76bee54bcb0b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.0581 101.6 0)
+			(at 96.0581 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4926,7 +4926,7 @@
 	)
 	(global_label "B1IN1"
 		(shape input)
-		(at 87.63 106.68 0)
+		(at 87.63 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4937,7 +4937,7 @@
 		)
 		(uuid "b8efcc26-3ff2-478a-b487-289daf8b9484")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.2395 106.68 0)
+			(at 96.2395 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4949,7 +4949,7 @@
 	)
 	(global_label "B1IN2"
 		(shape input)
-		(at 87.63 109.22 0)
+		(at 87.63 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4960,7 +4960,7 @@
 		)
 		(uuid "bdfeb12d-c3c4-4a4f-8a43-38771d49556e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.2395 109.22 0)
+			(at 96.2395 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6569,7 +6569,7 @@
 		(pin "10"
 			(uuid "594849d0-894b-4acc-9132-00145d3f45d9")
 		)
-		(pin "13"
+		(pin "EP"
 			(uuid "84e017d8-3e72-4300-9f31-68b12e77f390")
 		)
 		(pin "4"
@@ -9530,7 +9530,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2f87d5b-7146-41be-8351-4553615b1e3f")
-		(property "Reference" "12v_JP13"
+		(property "Reference" "6v_JP13"
 			(at 52.07 36.83 90)
 			(effects
 				(font
@@ -9582,7 +9582,7 @@
 		(instances
 			(project "Traveler"
 				(path "/329c0ead-d3da-412d-af02-2baef48d1278"
-					(reference "12v_JP13")
+					(reference "6v_JP13")
 					(unit 1)
 				)
 			)
