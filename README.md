@@ -41,5 +41,5 @@ Une interface sera faite sur telephone avec l'application BT electronics, et si 
 | Drivers moteur | DRV8411APWPR | | x2 |
 | ESP32 | | | x1 |
 | Roues omnidirectionelles | FIT0779 | https://www.gotronic.fr/art-roue-omnidirectionnelle-droite-fit0780-34179.htm | x2L x2R |
-| Convertisseur 12v-5v | 173950x78 | https://www.we-online.com/components/products/datasheet/173950378.pdf | x1 |
-| Batterie 12v | fait in ensea |  | x1 |
+| Convertisseur 6v-5v | 171013801 | https://www.we-online.com/components/products/datasheet/171013801.pdf | x1 |
+| Batterie 6v | fait in ensea |  | x1 |
