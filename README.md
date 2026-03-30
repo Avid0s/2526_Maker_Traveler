@@ -43,3 +43,7 @@ Une interface sera faite sur telephone avec l'application BT electronics, et si 
 | Roues omnidirectionelles | FIT0779 | [https://www.gotronic.fr/art-roue-omnidirectionnelle-droite-fit0780-34179.htm](https://www.gotronic.fr/art-roue-omnidirectionnelle-droite-fit0780-34179.htm) | x2L x2R |
 | Convertisseur 6v-5v | 171013801 | [https://www.we-online.com/components/products/datasheet/171013801.pdf](https://www.we-online.com/components/products/datasheet/171013801.pdf) | x1 |
 | Batterie 6v | fait in ensea |  | x1 |
+
+
+Lien Onshape :\
+[https://cad.onshape.com/documents/018aeca4da422949587763ea/w/2b34d823b7b37a4e9442f19b/e/016c48b2dd776d725fede060](https://cad.onshape.com/documents/018aeca4da422949587763ea/w/2b34d823b7b37a4e9442f19b/e/016c48b2dd776d725fede060)
