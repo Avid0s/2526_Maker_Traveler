@@ -12905,6 +12905,19 @@
 		(layer "Edge.Cuts")
 		(uuid "eae64c4a-4d9e-42d9-9390-963a47cdea28")
 	)
+	(gr_text "Pin order reversed, check datasheet"
+		(at 165.9 46.5 45)
+		(layer "F.SilkS")
+		(uuid "b27ba27d-dfc1-40a5-bc8b-2bf346b0d8e1")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 166.5 54.85)
 		(end 165 54.85)
@@ -14514,15 +14527,6 @@
 		(free yes)
 		(net 21)
 		(uuid "5ffa7dcb-eb01-4981-b5e6-30f90272237c")
-	)
-	(via
-		(at 171.9 45.25)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 21)
-		(uuid "6013805a-59b0-414a-8729-74a0a3d0a0ac")
 	)
 	(via
 		(at 150 85)

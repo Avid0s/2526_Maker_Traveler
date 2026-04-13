@@ -8852,7 +8852,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10u"
 			(at 112.014 52.07 0)
 			(effects
 				(font
