@@ -47,3 +47,5 @@ Une interface sera faite sur telephone avec l'application BT electronics, et si 
 
 Lien Onshape :\
 [https://cad.onshape.com/documents/018aeca4da422949587763ea/w/2b34d823b7b37a4e9442f19b/e/016c48b2dd776d725fede060](https://cad.onshape.com/documents/018aeca4da422949587763ea/w/2b34d823b7b37a4e9442f19b/e/016c48b2dd776d725fede060)
+
+<img width="679" height="487" alt="traveler" src="https://github.com/user-attachments/assets/ad4207d0-fd79-43c5-a3d1-9c7a29a3950e" />
