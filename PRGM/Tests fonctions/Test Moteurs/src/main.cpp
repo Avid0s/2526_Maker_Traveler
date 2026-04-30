@@ -1,7 +1,5 @@
 #include <Arduino.h>
 #include <BluetoothSerial.h>
-#include <freertos/FreeRTOS.h>
-#include <freertos/queue.h>
 #include <string.h>
 
 struct Motor{
@@ -16,9 +14,6 @@ void forward(Motor motor);
 void backward(Motor motor);
 void stop(Motor motor);
 
-int prevState = 0;
-int encoderPosition = 0; // Position of the encoder
-
 struct Motor motorFL = {16, 17, 32, 33}; // Initialize motor structure
 struct Motor motorFR = {5, 18, 34, 35}; 
 struct Motor motorBR = {0, 4, 25, 26};
@@ -27,16 +22,13 @@ struct Motor motorBL = {15, 2, 27, 14};
 uint16_t RxValue = 0;    // Initialisation de la valeur de reception
 uint8_t buffer[100]; // Initialisation d'un buffer de 100 octets
 
-BluetoothSerial SerialBT; // initialisation peripheriques
-QueueHandle_t xQueue;     ///////////////////////////////
+BluetoothSerial SerialBT;
 
 void setup() {
   Serial.begin(115200);
   delay(1000); // Give serial time to initialize
 
   Serial.println("Starting ESP32 Bluetooth...");
-
-  xQueue = xQueueCreate(10, sizeof(uint16_t)); // Create queue for BT data
 
   pinMode(22, OUTPUT);
 
@@ -75,8 +67,8 @@ void setup() {
 
 void loop() {
 
-  if (SerialBT.hasClient()) {
-  digitalWrite(22, HIGH);
+  if (SerialBT.hasClient()) { //Connection check
+    digitalWrite(22, HIGH);
   }
   else {
     digitalWrite(22, LOW);
@@ -167,7 +159,7 @@ void loop() {
     }
   }
   
-  vTaskDelay(pdMS_TO_TICKS(50));
+  delay(50);
 }
 
 // put function definitions here:
