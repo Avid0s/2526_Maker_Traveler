@@ -108,6 +108,7 @@ void loop() {
       Serial.println((char*)buffer);
 
       // Handle commands
+      // First, stop all motors before changing direction or continuing
       stop(motorFL);
       stop(motorFR);
       stop(motorBR);
@@ -152,14 +153,9 @@ void loop() {
       } else {
         Serial.println("Unknown Command");
       }
-      
-      else {
-        Serial.println("Unknown Command");
-      }
     }
   }
-  
-  delay(50);
+
 }
 
 // put function definitions here:
