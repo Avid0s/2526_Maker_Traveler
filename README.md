@@ -3,6 +3,10 @@ Gabriel VIDON\
 Projet d'option Maker à l'ENSEA.
 
 # Vidéo :
+Version 1 min 30 :\
+https://youtu.be/IOBbxCDs6Es
+
+Version 1 min 45 : (une étape en plus)\
 https://youtu.be/CtQkx19j3xo
 
 # 1 Description du projet
