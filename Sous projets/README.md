@@ -30,5 +30,10 @@ L'application utilisée est [CR-5000 de Zuken](https://en.wikipedia.org/wiki/CR-
 # Soudure PCB
 Nous n'avons pas pris de photos du PCB et nous ne le retrouvons plus maintenant :(
 
+# Couture
+<img width="2000" height="1500" alt="Couture_v1" src="https://github.com/user-attachments/assets/e3691e01-aa74-41da-bb49-508099545854" />
+<img width="1500" height="2000" alt="Couture_v2" src="https://github.com/user-attachments/assets/619243ad-6ad0-4d40-b5b3-5c3427429ced" />
+
+
 # Batteries
 Je n'ai pas pris de photos de la batterie non plus. J'avais fait une batterie 3s 2p et c'est celle qui a cramé dans la boite.
